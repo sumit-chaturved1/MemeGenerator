@@ -37,7 +37,7 @@ export default function Meme() {
     }
     
     return (
-        <main>
+        <div className="main">
             <div className="form">
                 <input 
                     type="text"
@@ -67,6 +67,6 @@ export default function Meme() {
                 <h2 className="meme--text top">{meme.topText}</h2>
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
             </div>
-        </main>
+        </div>
     )
 }
